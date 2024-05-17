@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7f4d1cc.css",
+    "main.js": "/static/js/main.ed8322f0.js",
+    "static/media/home-image.png": "/static/media/home-image.cf78691d34936a91ee05.png",
+    "static/media/work-life-balance.jpg": "/static/media/work-life-balance.ffe1f510182bb5a1cfd6.jpg",
+    "static/media/stress-management.jpg": "/static/media/stress-management.783aebec8a8194137cb8.jpg",
+    "static/media/Work-Stress-Quotes-Funny-Meme.png": "/static/media/Work-Stress-Quotes-Funny-Meme.7f322297c075d24a8347.png",
+    "static/media/handle-stress.jpg": "/static/media/handle-stress.85ba3d82597a94d9a864.jpg",
+    "static/media/Tips.jpg": "/static/media/Tips.4ba158b2f1f5418a1601.jpg",
+    "static/media/HeaderForMentalHealth.jpg": "/static/media/HeaderForMentalHealth.a47ec385121cebbccc7e.jpg",
+    "static/media/work-stress-title-image_tcm7-212368.jpg": "/static/media/work-stress-title-image_tcm7-212368.cde19c14d22ee1f4560f.jpg",
+    "static/media/hope.png": "/static/media/hope.557c0bf3c887a800be06.png",
+    "static/media/Workplace-Stress-Management-300x150.webp": "/static/media/Workplace-Stress-Management-300x150.9e47035d3bda6ebd9c25.webp",
+    "index.html": "/index.html",
+    "main.e7f4d1cc.css.map": "/static/css/main.e7f4d1cc.css.map",
+    "main.ed8322f0.js.map": "/static/js/main.ed8322f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7f4d1cc.css",
+    "static/js/main.ed8322f0.js"
+  ]
+}
