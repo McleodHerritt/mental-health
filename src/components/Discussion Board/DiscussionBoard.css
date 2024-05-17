@@ -1,0 +1,126 @@
+/* Overall layout settings for the discussion board */
+.discussion-board {
+  background-color: #f4f4f9;
+  padding: 20px;
+  min-width: 800px;
+  width: 100%;
+
+  margin-bottom: 2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.blog-section .comment,
+p,
+strong {
+  font-size: 1.5rem;
+}
+.blog-section {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  text-align: center;
+  min-height: 200px;
+  height: fit-content;
+  border-radius: 2rem;
+}
+.blog-title {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* Style for user inputs */
+.user-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.user-input input[type="text"] {
+  padding: 10px;
+  border: 2px solid rgb(66, 66, 66);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.user-input button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #e3b4f1;
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: background-color 0.3s;
+}
+.blog-section .comment button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #e3b4f1;
+  color: black;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: background-color 0.3s;
+  border: none;
+}
+.blog-section .comment button:hover {
+  background-color: #969ceb;
+}
+.user-input button:hover {
+  background-color: #969ceb;
+}
+
+/* Comment and reply styling */
+.comment,
+.reply {
+  background-color: rgb(19, 18, 18);
+  color: white;
+  margin-top: 10px;
+}
+.reply {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+
+  width: 100%;
+}
+.comment input {
+  width: 80%;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.comment p,
+.reply p {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: calc(1rem + 1vw);
+  margin: 0;
+  line-height: 1.5;
+  color: white;
+}
+
+/* Button styling within comments and replies */
+
+.icon {
+  margin-right: 5px;
+}
+.discussion-board input::placeholder {
+  color: #888; /* Light grey text */
+  font-size: 1.5rem;
+}

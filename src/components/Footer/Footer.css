@@ -1,0 +1,16 @@
+/* Footer styles */
+
+.footer {
+  color: #888;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer p {
+  width: 100vw;
+}
+
+footer {
+}

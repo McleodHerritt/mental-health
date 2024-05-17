@@ -1,0 +1,78 @@
+::marker {
+  display: none;
+}
+.stress-resources {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  gap: 2em;
+  max-width: 100%;
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+}
+.stress-resources li {
+  list-style: none;
+}
+.resource-title {
+  color: black;
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 1rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.stress-resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.stress-resources li {
+  margin-bottom: 20px;
+}
+
+.stress-resources a {
+  font-size: 1rem;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.stress-resources a:hover {
+  text-decoration: none;
+  color: rgb(94, 116, 177);
+  font-size: 1.8rem;
+}
+
+.stress-resources p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.stress-resources p:hover {
+  text-decoration: underline;
+}
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  height: 500px;
+  border-radius: 2rem;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+img {
+  display: flex;
+
+  width: 30vw;
+  height: 30vh;
+
+  max-width: 70%;
+}

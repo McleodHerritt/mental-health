@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+.hamburger {
+  /* display: block; */
+  cursor: pointer;
+  position: sticky;
+
+  z-index: 100;
+  transform: scale(1.5);
+}
+
+.nav-links {
+  display: none;
+}
+
+.nav-links.open {
+  display: flex;
+  padding-right: 3rem;
+  background-color: transparent;
+}
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1em;
+}
+.nav-links {
+  display: none;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  gap: 1.25rem;
+  list-style: none;
+}
+
+.nav-links a {
+  gap: 1rem;
+  list-style: none;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(128, 93, 122);
+  transition: color 0.3s ease;
+  max-width: 80%;
+  line-height: 1rem;
+}
+
+.nav-links a:hover {
+  color: rgb(76, 76, 78);
+}

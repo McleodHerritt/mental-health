@@ -1,0 +1,118 @@
+.work-stress-section-one .common-causes-container,
+.end-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(500px, 1fr));
+  grid-gap: 1rem;
+}
+.hopeImg {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.QuoteImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+  margin-left: 10px;
+  margin-bottom: 3rem;
+}
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5rem;
+  padding: 5rem;
+}
+.intro-title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+article .work-stress-intro {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 0 5rem;
+  color: black;
+}
+
+.common-causes-container .section-intro,
+.end-container .section-intro {
+  display: flex;
+  margin: 0 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  max-width: 60ch;
+  overflow-wrap: break-word;
+
+  background-color: rgb(56, 56, 56);
+  color: white;
+}
+
+.section-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  list-style-type: none;
+}
+
+.work-stress-container {
+  background-color: rgb(56, 56, 56);
+  padding: 0, 3rem;
+  margin: 3rem;
+}
+
+.effects-container {
+  margin-top: 3rem;
+}
+.effects-container .section-intro {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.end-container {
+  background-color: rgb(56, 56, 56);
+  padding: 0, 5rem;
+  margin: 0, 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.effects-container .section-list {
+  font-size: 1.2rem;
+  margin: 0 5rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.end-container p {
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.work-stress-container .section-intro,
+.work-stress-container .section-list li {
+  color: white;
+}
+.work-stress-container .section-intro {
+  padding-top: 5rem;
+}
+.work-stress-container .section-list :last-child {
+  padding-bottom: 5rem;
+}
